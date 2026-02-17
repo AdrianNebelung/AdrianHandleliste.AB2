@@ -23,7 +23,10 @@ function AddForm({ onLeggTilVare }) {
             return;
         }
 
+        {/* Sjekke om at alt er ok, som vil da sende det videre til App.jsx. */}
         onLeggTilVare(navn, antall);
+
+        {/* Etter at varen er blitt sendt så vil skjemaet bli oppdatert, sånn at feletene blir ryddet. */}
         setNavn("");
         setAntall("");
         setError("");
@@ -42,6 +45,7 @@ function AddForm({ onLeggTilVare }) {
                     </label>
 
             <button type="submit" className="add-form-knapp">Legg til</button>
+
 
             {error && (
                 <p role="alert" className="add-form-error">
