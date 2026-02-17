@@ -1,0 +1,146 @@
+$primary: #3182ce;
+$pramry-dark: #2b6cb0;
+$sucess: #38a169;
+$error: #e53e3e;
+$gray: #718096;
+$light-bg: #f9fcff;
+$border: #e0e0e0;
+
+$font: system-ui, -apple-system, sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font;
+    background: #f8f9fa;
+    color: #333;
+    min-height: 100vh;
+    padding: 2rem 1rem;
+}
+
+.container {
+    max-width: 640px;
+    margin: 2rem auto;
+    padding: 1.5rem; 
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+
+    .tittel {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #1a3c5e;
+    }
+}
+
+.add-form {
+    margin-bottom: 2.8rem;
+
+    &-label {
+        display: flex;
+        margin: 1.3rem 0 0.6rem;
+        font-weight: 500;
+        color: #2d3748;
+
+        input {
+            display: block;
+            width: 100%;
+            padding: 0.75rem 1rem;
+            border-radius: 6px;
+            font-size: 1.05rem;
+        }
+
+        &[type="number"] {
+            width: 110px;
+            text-align: center;
+        }
+    }
+
+    &-knapp {
+        background: $primary;
+        color: white;
+        border: none;
+        padding: 0.85rem 1.8rem;
+        border-radius: 6px;
+        font-size: 1.05rem;
+        font-weight: 500;
+        cursor: pointer;
+        margin-top: 1.3rem;
+    }
+
+    &-error {
+        color: $error;
+        background: #fff5f5;
+        padding: 0.75rem 1rem;
+        border-radius: 6px;
+        margin-top: 1rem;
+        border-left: 4px solid $error;
+        font-size: 0.95rem;
+    }
+
+}
+
+.shopping-list {
+    &-tittel {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 2.2rem 0 1.3rem;
+        color: #2d3748;
+    }
+
+    &-varer {
+        list-style: none;
+    }
+}
+
+.shopping-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.1rem 0;
+    border-bottom: 1px solid $border;
+    gap: 1.2;
+
+    &-kjopt {
+        opacity: 0.65;
+
+        .shopping-item-label {
+            text-decoration: line-through;
+            color: $gray;
+        }
+    }
+
+    &-label {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        flex: 1;
+        cursor: pointer;
+
+        input[type="checkbox"] {
+            width: 1.35rem;
+            height: 1.35rem
+        }
+    }
+
+    &-antall {
+        display: flex;
+        align-items: center;
+        gap: 0.7rem;
+        font-weight: 500;
+        color: #2d3748;
+
+        input {
+            width: 75px;
+            padding: 0.6rem;
+            text-align: center;
+            border: 1px solid $border;
+            border-radius: 6px;
+            font-size: 1rem;
+        }
+    }
+}

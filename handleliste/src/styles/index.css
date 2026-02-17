@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #f8f9fa;
+  color: #333;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+}
+
+.container {
+  max-width: 640px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+.container .tittel {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #1a3c5e;
+}
+
+.add-form {
+  margin-bottom: 2.8rem;
+}
+.add-form-label {
+  display: flex;
+  margin: 1.3rem 0 0.6rem;
+  font-weight: 500;
+  color: #2d3748;
+}
+.add-form-label input {
+  display: block;
+  width: 100%;
+  margin-top: 0.4rem;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  font-size: 1.05rem;
+}
+.add-form-label[type=number] {
+  width: 110px;
+  text-align: center;
+}
+.add-form-knapp {
+  background: #3182ce;
+  color: white;
+  border: none;
+  padding: 0.85rem 1.8rem;
+  border-radius: 6px;
+  font-size: 1.05rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 1.3rem;
+}
+.add-form-error {
+  color: #e53e3e;
+  background: #fff5f5;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  margin-top: 1rem;
+  border-left: 4px solid #e53e3e;
+  font-size: 0.95rem;
+}
+
+.shopping-list-tittel {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 2.2rem 0 1.3rem;
+  color: #2d3748;
+}
+.shopping-list-varer {
+  list-style: none;
+}
+
+.shopping-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid #e0e0e0;
+  gap: 1.2;
+}
+.shopping-item-kjopt {
+  opacity: 0.65;
+}
+.shopping-item-kjopt .shopping-item-label {
+  text-decoration: line-through;
+  color: #718096;
+}
+.shopping-item-label {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex: 1;
+  cursor: pointer;
+}
+.shopping-item-label input[type=checkbox] {
+  width: 1.35rem;
+  height: 1.35rem;
+}
+.shopping-item-antall {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-weight: 500;
+  color: #2d3748;
+}
+.shopping-item-antall input {
+  width: 75px;
+  padding: 0.6rem;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 1rem;
+}/*# sourceMappingURL=index.css.map */
