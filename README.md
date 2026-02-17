@@ -13,7 +13,7 @@ React.(u.å). Conditional Rendering. Hentet 9/2/2026. Hentet fra:
 (https://react.dev/learn/conditional-rendering)
 
 ### Create React App
-Create React App.(7/7/2021). Hentet 9/2/2026. Hentet fra:
+Create React App. Adding a Sass Stylesheet (7/7/2021). Hentet 9/2/2026. Hentet fra:
 (https://create-react-app.dev/docs/adding-a-sass-stylesheet/)
 
 ### Gemini
