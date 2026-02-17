@@ -11,7 +11,7 @@ Vite dev.(u.å). Getting Started | Vite. Hentet 8/2/2026. Hentet fra:
 ### React
 React.(u.å). Conditional Rendering. Hentet 9/2/2026. Hentet fra:
 (https://react.dev/learn/conditional-rendering)
-win
+
 ### Create React App
 Create React App.(7/7/2021). Hentet 9/2/2026. Hentet fra:
 (https://create-react-app.dev/docs/adding-a-sass-stylesheet/)
